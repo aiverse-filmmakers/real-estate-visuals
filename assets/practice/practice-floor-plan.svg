@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><rect width="1600" height="1000" fill="#f6f6f1"/><g fill="none" stroke="#18231d" stroke-width="18"><path d="M120 120H1480V880H120Z"/><path d="M120 520H720V120"/><path d="M720 520H1480"/><path d="M720 520V880"/><path d="M1050 520V880"/></g><g fill="#146b4b" font-family="Arial,sans-serif" font-size="42" font-weight="700"><text x="220" y="340">LIVING ROOM</text><text x="900" y="340">KITCHEN</text><text x="250" y="720">BEDROOM</text><text x="1130" y="720">BATH</text></g><g fill="#6c6f69" font-family="Arial,sans-serif" font-size="24"><text x="120" y="70">PRACTICE PROPERTY FLOOR PLAN</text><text x="120" y="950">Practice visual only. Not a certified architectural plan.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<rect width="1536" height="1024" fill="#f7f7f4"/>
+<style>.wall{stroke:#17211c;stroke-width:18;fill:none;stroke-linecap:square}.thin{stroke:#68716c;stroke-width:4;fill:none}.door{stroke:#9b6b38;stroke-width:5;fill:none}.window{stroke:#25856d;stroke-width:12}.label{font:700 32px Arial,sans-serif;fill:#17211c}.dim{font:24px Arial,sans-serif;fill:#59615d}.fixture{stroke:#59615d;stroke-width:4;fill:none}</style>
+<text x="90" y="72" class="label" font-size="38">PRACTICE ONE-BED PROPERTY PLAN</text>
+<text x="90" y="108" class="dim">Synthetic teaching plan. All openings, fixtures and dimensions shown.</text>
+<!-- outer and internal walls -->
+<path class="wall" d="M120 160H1416V900H120Z M120 520H1416 M760 160V900 M1080 520V900"/>
+<!-- door gaps overdrawn -->
+<g stroke="#f7f7f4" stroke-width="24">
+<path d="M440 520h105M760 360v105M760 680v105M1080 690v105M1220 520h105M1416 700v105"/>
+</g>
+<!-- doors and swings -->
+<g class="door">
+<path d="M440 520v-100M440 420a100 100 0 0 1 100 100"/>
+<path d="M760 360h-100M660 360a100 100 0 0 0 100 100"/>
+<path d="M760 680h100M860 680a100 100 0 0 1-100 100"/>
+<path d="M1080 690h95M1175 690a95 95 0 0 1-95 95"/>
+<path d="M1220 520v-100M1220 420a100 100 0 0 0 100 100"/>
+<path d="M1416 700h-100M1316 700a100 100 0 0 0 100 100"/>
+</g>
+<!-- windows -->
+<path class="window" d="M270 160h280M900 160h300M120 665v150M1416 260v150"/>
+<!-- labels -->
+<text x="335" y="330" class="label">LIVING / DINING</text><text x="390" y="370" class="dim">6.4m × 4.2m</text>
+<text x="965" y="330" class="label">KITCHEN</text><text x="1010" y="370" class="dim">5.1m × 4.2m</text>
+<text x="340" y="700" class="label">BEDROOM 1</text><text x="390" y="740" class="dim">4.8m × 3.8m</text>
+<text x="830" y="700" class="label">HALL</text><text x="830" y="740" class="dim">2.5m × 3.8m</text>
+<text x="1160" y="700" class="label">BATHROOM</text><text x="1190" y="740" class="dim">2.6m × 3.8m</text>
+<!-- kitchen fixtures -->
+<g class="fixture"><rect x="820" y="185" width="500" height="70"/><rect x="1240" y="275" width="120" height="180"/><rect x="900" y="310" width="210" height="110"/><circle cx="1005" cy="365" r="30"/><rect x="1140" y="315" width="120" height="100"/><circle cx="1175" cy="350" r="18"/><circle cx="1225" cy="350" r="18"/></g>
+<!-- bathroom fixtures -->
+<g class="fixture"><rect x="1115" y="555" width="265" height="105" rx="35"/><ellipse cx="1165" cy="820" rx="48" ry="65"/><rect x="1270" y="770" width="105" height="85"/><ellipse cx="1322" cy="780" rx="38" ry="20"/></g>
+<!-- living furniture guide -->
+<g class="thin"><rect x="195" y="250" width="220" height="85" rx="18"/><rect x="430" y="405" width="170" height="70"/><rect x="250" y="400" width="115" height="75" rx="14"/></g>
+<!-- bedroom fixture guide -->
+<g class="thin"><rect x="250" y="610" width="265" height="190"/><path d="M250 650h265M382 650v150"/><rect x="580" y="620" width="110" height="210"/></g>
+<!-- north and scale -->
+<path class="thin" d="M1460 170v120M1460 170l-24 45M1460 170l24 45"/><text x="1445" y="325" class="dim">N</text>
+<path class="thin" d="M120 955h300M120 940v30M270 940v30M420 940v30"/><text x="120" y="1000" class="dim">0</text><text x="255" y="1000" class="dim">2m</text><text x="405" y="1000" class="dim">4m</text>
+</svg>
